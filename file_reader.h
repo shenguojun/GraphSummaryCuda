@@ -8,13 +8,9 @@ using std::ifstream;
 
 class FileReader{
 public:
-
-	FileReader();
-
 	void ReadGraph(Graph *graph);
 
 private:
-
-	ifstream in;
-}
+	ifstream m_inf;
+};
 #endif

@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015/1/31 15:30:24。
+     1>项目“E:\guojun\GraphSummaryCuda\GraphSummaryCuda\GraphSummaryCuda.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\GraphSummaryCuda.unsuccessfulbuild”执行 Touch 任务。
+       AddCudaCompileDeps:
+       正在跳过目标“AddCudaCompileDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+       AddCudaCompileDeps:
+       正在跳过目标“AddCudaCompileDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+       CudaBuild:
+       正在跳过目标“CudaBuild”，因为所有输出文件相对于输入文件而言都是最新的。
+       CudaBuild:
+       正在跳过目标“CudaBuild”，因为所有输出文件相对于输入文件而言都是最新的。
+       Link:
+         D:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GraphSummaryCuda.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.lib" /MACHINE:X86 Debug\CuGreddyMain.cc.obj
+         Debug\file_reader.cc.obj
+         GraphSummaryCuda.vcxproj -> E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.exe.manifest" /manifest Debug\GraphSummaryCuda.exe.intermediate.manifest
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "E:\guojun\GraphSummaryCuda\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "E:\guojun\GraphSummaryCuda\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "E:\guojun\GraphSummaryCuda\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+         已复制         2 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“Debug\GraphSummaryCuda.unsuccessfulbuild”。
+         正在对“Debug\GraphSummaryCuda.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\guojun\GraphSummaryCuda\GraphSummaryCuda\GraphSummaryCuda.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.57
