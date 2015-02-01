@@ -1,18 +1,30 @@
-﻿生成启动时间为 2015/1/31 15:30:24。
+﻿生成启动时间为 2015/2/1 16:32:36。
      1>项目“E:\guojun\GraphSummaryCuda\GraphSummaryCuda\GraphSummaryCuda.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在对“Debug\GraphSummaryCuda.unsuccessfulbuild”执行 Touch 任务。
+         正在创建“Debug\GraphSummaryCuda.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        AddCudaCompileDeps:
        正在跳过目标“AddCudaCompileDeps”，因为所有输出文件相对于输入文件而言都是最新的。
        AddCudaCompileDeps:
-       正在跳过目标“AddCudaCompileDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+         D:\Program Files (x86)\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I. /FIcuda_runtime.h /c E:\guojun\GraphSummaryCuda\GraphSummaryCuda\file_reader.cc 
+       AddCudaCompilePropsDeps:
+       正在跳过目标“AddCudaCompilePropsDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+       AddCudaCompilePropsDeps:
+       正在跳过目标“AddCudaCompilePropsDeps”，因为所有输出文件相对于输入文件而言都是最新的。
        CudaBuild:
        正在跳过目标“CudaBuild”，因为所有输出文件相对于输入文件而言都是最新的。
        CudaBuild:
-       正在跳过目标“CudaBuild”，因为所有输出文件相对于输入文件而言都是最新的。
+         Compiling CUDA source file file_reader.cc...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\2\tmpae75cf2fc6bc477ca56a26042216147c.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "D:\Program Files (x86)\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\file_reader.cc.obj "E:\guojun\GraphSummaryCuda\GraphSummaryCuda\file_reader.cc"
+         
+         E:\guojun\GraphSummaryCuda\GraphSummaryCuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "D:\Program Files (x86)\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\file_reader.cc.obj "E:\guojun\GraphSummaryCuda\GraphSummaryCuda\file_reader.cc" 
+         file_reader.cc
+       ClCompile:
+         所有输出均为最新。
        Link:
          D:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GraphSummaryCuda.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.lib" /MACHINE:X86 Debug\CuGreddyMain.cc.obj
          Debug\file_reader.cc.obj
+         Debug\util.obj
          GraphSummaryCuda.vcxproj -> E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\guojun\GraphSummaryCuda\Debug\GraphSummaryCuda.exe.manifest" /manifest Debug\GraphSummaryCuda.exe.intermediate.manifest
@@ -31,4 +43,4 @@
 
 生成成功。
 
-已用时间 00:00:00.57
+已用时间 00:00:03.33

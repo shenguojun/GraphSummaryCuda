@@ -3,9 +3,13 @@
   <ItemGroup>
     <ClInclude Include="file_reader.h" />
     <ClInclude Include="graph.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="file_reader.cc" />
     <CudaCompile Include="CuGreddyMain.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util.cc" />
   </ItemGroup>
 </Project>

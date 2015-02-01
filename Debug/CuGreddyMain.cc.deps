@@ -239,7 +239,8 @@ c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\host_defines.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\vector_functions.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_launch_parameters.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\vector_types.h
-D:\Program Files (x86)\VC\include\iostream
+e:\guojun\graphsummarycuda\graphsummarycuda\file_reader.h
+D:\Program Files (x86)\VC\include\fstream
 D:\Program Files (x86)\VC\include\istream
 D:\Program Files (x86)\VC\include\ostream
 D:\Program Files (x86)\VC\include\ios
@@ -317,7 +318,6 @@ D:\Program Files (x86)\VC\include\cerrno
 D:\Program Files (x86)\VC\include\errno.h
 D:\Program Files (x86)\VC\include\crtdefs.h
 D:\Program Files (x86)\VC\include\share.h
-e:\guojun\graphsummarycuda\graphsummarycuda\file_reader.h
-D:\Program Files (x86)\VC\include\fstream
 e:\guojun\graphsummarycuda\graphsummarycuda\graph.h
 e:\guojun\graphsummarycuda\graphsummarycuda\graph.h
+D:\Program Files (x86)\VC\include\iostream
