@@ -4,10 +4,11 @@
     <ClInclude Include="file_reader.h" />
     <ClInclude Include="graph.h" />
     <ClInclude Include="util.h" />
+    <ClInclude Include="init.h" />
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="file_reader.cc" />
-    <CudaCompile Include="CuGreddyMain.cc" />
+    <CudaCompile Include="cuMain.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="util.cc" />

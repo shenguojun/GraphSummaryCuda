@@ -68,6 +68,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -148,12 +149,13 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="CuGreddyMain.cc" />
+    <CudaCompile Include="cuMain.cu" />
     <CudaCompile Include="file_reader.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="file_reader.h" />
     <ClInclude Include="graph.h" />
+    <ClInclude Include="init.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
