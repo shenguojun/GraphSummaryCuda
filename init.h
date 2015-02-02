@@ -1,6 +1,8 @@
 #ifndef INIT_CUH
 #define INIT_CUH
 
-void cudaMemoryHostToDeviceMalloc(Graph* pDevicGraph, Graph* pHostGraph);
+#include "graph.h"
+#include "gputimer.h"
 
+void cudaMemoryHostToDeviceMalloc(Graph* pDevicGraph, Graph* pHostGraph);
 #endif

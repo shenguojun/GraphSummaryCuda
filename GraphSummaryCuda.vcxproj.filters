@@ -5,10 +5,12 @@
     <ClInclude Include="graph.h" />
     <ClInclude Include="util.h" />
     <ClInclude Include="init.h" />
+    <ClInclude Include="gputimer.h" />
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="file_reader.cc" />
     <CudaCompile Include="cuMain.cu" />
+    <CudaCompile Include="init.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="util.cc" />

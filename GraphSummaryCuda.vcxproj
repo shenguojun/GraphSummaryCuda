@@ -151,9 +151,11 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
   <ItemGroup>
     <CudaCompile Include="cuMain.cu" />
     <CudaCompile Include="file_reader.cc" />
+    <CudaCompile Include="init.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="file_reader.h" />
+    <ClInclude Include="gputimer.h" />
     <ClInclude Include="graph.h" />
     <ClInclude Include="init.h" />
     <ClInclude Include="util.h" />
